@@ -1,6 +1,4 @@
 # Add  code here!
-def prime?(i)
-  (-10..10).to_a
-  a = i
+def prime?(number)
 
 end
