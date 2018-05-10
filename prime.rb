@@ -4,7 +4,7 @@ def prime?(number) #define a method, prime?() that takes in an integer argument
   if number <=1
     false #because negative numbers are not prime
   else
-  # otherwise if none of the numbers in the range can be divided by 2, or itself, then false
+  # otherwise
     (2..number/2).none? { |i| number % i == 0}
   # For each of the numbers in the range 2 to number/2...
   # ...test that none of them divide evenly with the given number
@@ -14,3 +14,4 @@ def prime?(number) #define a method, prime?() that takes in an integer argument
 end
 
 # .none? loops over each item in the array
+# the ? after none indicates the methode returns a boolean
