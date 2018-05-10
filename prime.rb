@@ -5,10 +5,8 @@ def prime?(number) #define a method, prime?() that takes in an integer argument
     false #because negative numbers are not prime
   else
   # otherwise if none of the numbers in the range can be divided by 2, or itself, then false
-    (2..number/2).none? { |i| number % i == 0}
-  # (range of numbers starting with 2--because 1 is not prime--divided by 2)
-  # ask if there are none in the range that are true
-  # throw those numbers in a local variable |i| and divide by itself to see if it equals zero
+    (2..number/2).none? { |i| prime % i == 0}
+  # For each of the numbers in the range 2 to prime/2...
   end
 end
 
