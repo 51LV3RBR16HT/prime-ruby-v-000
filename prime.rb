@@ -1,6 +1,7 @@
 # Add code here!
 def prime?(number) #define a method, prime?() that takes in an integer argument
-  # Define what a prime number is: a number that is only divisible by itself or by 1 (thank you Prof Google)
+  # Define what a prime number is: a number that is only divisible by itself...
+  # ...or by 1 (thank you Prof Internet)
   if number <=1
     false #because negative numbers are not prime
   else
