@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(number) #defining a method, prime?() that takes in an integer argument
   if number == 1 || number == 2 || number % 3
-    return true
+    true
   else
     number <= -1
-    return false
+    false
   end
 end
 
