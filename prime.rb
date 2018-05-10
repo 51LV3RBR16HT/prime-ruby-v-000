@@ -10,8 +10,3 @@ def prime?(number) #defining a method, prime?() that takes in an integer argumen
 end
 
 # .none? loops over each item in the array
-
-# removed the following code and used code on line 8 instead
-# elsif
-#   number == 2
-#   true #because a prime number is divisible by itself
