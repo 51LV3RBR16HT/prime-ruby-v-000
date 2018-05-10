@@ -1,11 +1,13 @@
-# Add  code here!
+# Add code here!
 def prime?(number) #defining a method, prime?() that takes in an integer argument
+  # You need to define what a prime number is: a number that is only divisible by itself or by 1
   if number <=1
-    false
+    false #because negative numbers are not prime
   elsif
     number == 2
-    true
+    true #because a prime number is divisible by itself
   else
+    # otherwise if none of the numbers in the range can be divided by itself 
     (2..number/2).none? { |i| number % i == 0}
   end
 end
