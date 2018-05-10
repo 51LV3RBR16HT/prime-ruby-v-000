@@ -1,10 +1,12 @@
 # Add  code here!
 def prime?(number) #defining a method, prime?() that takes in an integer argument
-  if number == 2 || number % 3
+  if number <=1
+    false
+  elsif
+    number == 2
     true
   else
-    number <= 0
-    false
+    (2..number/2).none? { |i| number % i == 0}
   end
 end
 
