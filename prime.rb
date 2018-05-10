@@ -8,7 +8,7 @@ def prime?(number) #defining a method, prime?() that takes in an integer argumen
     true #because a prime number is divisible by itself
   else
     # otherwise if none of the numbers in the range can be divided by itself, then false
-    (2..number/2).none? { |i| number % i == 0}
+    # (2..number/2).none? { |i| number % i == 0}
   end
 end
 
