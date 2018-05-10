@@ -3,7 +3,7 @@ def prime?(number) #defining a method, prime?() that takes in an integer argumen
   if number == 1 || number == 2 || number % 3
     true
   else
-    number <= 1
+    number <= 0
     false
   end
 end
