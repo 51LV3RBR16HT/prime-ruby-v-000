@@ -4,7 +4,7 @@ def prime?(number) #defining a method, prime?() that takes in an integer argumen
     true
   else
     number <= -1
-      false
+    false
   end
 end
 
