@@ -16,5 +16,3 @@ end
 # if integer is prime, return true
 # if integer is not prime, return false
 # turn a range into an array so it can be iterated over
-# research algorithms (...?)
-# look into Benchmarking (...?)
